@@ -3,7 +3,7 @@ import asyncio
 
 
 async def client():
-    url = "ws://127.0.0.1:7890/test"
+    url = "ws://127.0.0.1:9000/test"
     async with websockets.connect(url) as ws:
         try:
             while True:
