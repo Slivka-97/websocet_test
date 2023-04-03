@@ -21,7 +21,7 @@ async def server_endpoint(websocket: websockets.WebSocketServerProtocol, path: s
     if path == '/test':
         try:
             time_response, data = await get_data()
-        except aiohttp.ClientConnectorError as e:
+        except (aiohttp.ClientConnectorError, aiohttp.ContentTypeError) as e:
             time_response, data = time.time(), f'Connection Error: {e}'
         while True:
             recv_msg = await websocket.recv()
