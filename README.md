@@ -1,5 +1,4 @@
 # websocet_test
-websocet_test
 
 Задача:
 
