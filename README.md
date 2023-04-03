@@ -11,6 +11,6 @@ websocet_test
 (Пример источника данных: https://blockchain.info/ticker)
 
 Python 3.10
-1. Устанавливаем зависимости: pip install -r requirements.txt 
-2. Создаем сервер: (python web.py) при удачном создании должно появиться сообщение (Server listening on Port 9000)
-3. Создаем клиента (python client.py)
+1. Устанавливаем зависимости: `pip install -r requirements.txt` 
+2. Создаем сервер: `python web.py` при удачном создании должно появиться сообщение (Server listening on Port 9000)
+3. Создаем клиента `ython client.py`
